@@ -1,0 +1,11 @@
+let characterWon = {
+    strongestHeroWon: 0,
+    heroHunterWon: 0,
+    destructiveCyborgWon: 0,
+    deadlyNinjaWon: 0,
+    brutalDemonWon: 0,
+    bladeMasterWon: 0,
+    wildPsychicWon: 0,
+    martialArtistWon: 0,
+    techProdigyWon: 0
+}

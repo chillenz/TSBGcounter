@@ -7,49 +7,59 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1 id="title">TSBG Duel's counter</h1>
     <div id="strongesthero" class="character">
         <div id="strongestherobar" class="bar"></div>
         <h1 id="strongestherotext">Strongest Hero ( Saitama )</h1>
+        <h1 id="strongestherowinloss" class="winloss"><span class="green">(0</span> / <span class="red">0)</span></h1>
     </div>
 
     <div id="herohunter" class="character">
         <div id="herohunterbar" class="bar"></div>
         <h1 id="herohuntertext">Hero Hunter ( Garou )</h1>
+        <h1 id="herohunterwinloss" class="winloss"><span class="green">(0</span> / <span class="red">0)</span></h1>
     </div>
 
     <div id="destructivecyborg" class="character">
         <div id="destructivecyborgbar" class="bar"></div>
         <h1 id="destructivecyborgtext">Destructive Cyborg ( Genos )</h1>
+        <h1 id="destructivecyborgwinloss" class="winloss"><span class="green">(0</span> / <span class="red">0)</span></h1>
     </div>
 
     <div id="deadlyninja" class="character">
         <div id="deadlyninjabar" class="bar"></div>
         <h1 id="deadlyninjatext">Deadly Ninja ( Sonic )</h1>
+        <h1 id="deadlyninjawinloss" class="winloss"><span class="green">(0</span> / <span class="red">0)</span></h1>
     </div>
 
     <div id="brutaldemon" class="character">
         <div id="brutaldemonbar" class="bar"></div>
         <h1 id="brutaldemontext">Brutal Demon ( Metal Bat )</h1>
+        <h1 id="brutaldemonwinloss" class="winloss"><span class="green">(0</span> / <span class="red">0)</span></h1>
     </div>
 
     <div id="blademaster" class="character">
         <div id="blademasterbar" class="bar"></div>
         <h1 id="blademastertext">Blade Master ( Atomic Samurai)</h1>
+        <h1 id="blademasterwinloss" class="winloss"><span class="green">(0</span> / <span class="red">0)</span></h1>
     </div>
 
     <div id="wildpsychic" class="character">
         <div id="wildpsychicbar" class="bar"></div>
         <h1 id="wildpsychictext">Wild Psychic ( Tatsumaki )</h1>
+        <h1 id="wildpsychicwinloss" class="winloss"><span class="green">(0</span> / <span class="red">0)</span></h1>
     </div>
 
     <div id="martialartist" class="character">
         <div id="martialartistbar" class="bar"></div>
         <h1 id="martialartisttext">Martial Artist ( Suiryu )</h1>
+        <h1 id="martialartistwinloss" class="winloss"><span class="green">(0</span> / <span class="red">0)</span></h1>
     </div>
     
     <div id="techprodigy" class="character">
         <div id="techprodigybar" class="bar"></div>
-        <h1 id="techprodigytext">Tech Prodigy ( Isamu )</h1>
+        <h1 id="techprodigytext">Tech Prodigy ( Child Emperor )</h1>
+        <h1 id="techprodigywinloss" class="winloss"><span class="green">(0</span> / <span class="red">0)</span></h1>
     </div>
 
     <button id="add">Add</button>
@@ -72,6 +82,23 @@
             <button id="won">won</button>
         </div>
         <button id="confirm">confirm</button>
+    </div>
+
+    <div id="information">
+        <h1 id="totalmatch">Total Match Played: 0</h1>
+        <h1 id="totalwin">Total Match Won: 0</h1>
+        <h1 id="totallost">Total Match Lost: 0</h1>
+        <h1 id="winlossratio">Win/Loss Ratio: 0</h1>
+        <h1 id="currentwinstreak">Current Win Streak: 0</h1>
+        <h1 id="longestwinstreak">Longest Win Streak: 0</h1>
+        <div id="pie">
+            <div id="innerpie">None</div>
+        </div>
+    </div>
+    <img src="setting.png" alt="setting" id="settingbutton">
+    <div id="settingpage">
+        <h1 id="settingclose">X</h1>
+        <button id="reset">Reset All Progress</button>
     </div>
     <script src="script.js"></script>
 </body>
